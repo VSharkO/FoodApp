@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D52B267A217375CD00CD5594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B2679217375CD00CD5594 /* AppDelegate.swift */; };
-		D52B267C217375CD00CD5594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B267B217375CD00CD5594 /* ViewController.swift */; };
-		D52B267F217375CD00CD5594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52B267D217375CD00CD5594 /* Main.storyboard */; };
+		D52B267C217375CD00CD5594 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B267B217375CD00CD5594 /* MealViewController.swift */; };
 		D52B2681217375CE00CD5594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52B2680217375CE00CD5594 /* Assets.xcassets */; };
-		D52B2684217375CE00CD5594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52B2682217375CE00CD5594 /* LaunchScreen.storyboard */; };
 		D52B268F217375CE00CD5594 /* FoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B268E217375CE00CD5594 /* FoodAppTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +26,8 @@
 /* Begin PBXFileReference section */
 		D52B2676217375CD00CD5594 /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B2679217375CD00CD5594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D52B267B217375CD00CD5594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D52B267E217375CD00CD5594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D52B267B217375CD00CD5594 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		D52B2680217375CE00CD5594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D52B2683217375CE00CD5594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D52B2685217375CE00CD5594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D52B268A217375CE00CD5594 /* FoodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B268E217375CE00CD5594 /* FoodAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAppTests.swift; sourceTree = "<group>"; };
@@ -78,10 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				D52B2679217375CD00CD5594 /* AppDelegate.swift */,
-				D52B267B217375CD00CD5594 /* ViewController.swift */,
-				D52B267D217375CD00CD5594 /* Main.storyboard */,
+				D52B267B217375CD00CD5594 /* MealViewController.swift */,
 				D52B2680217375CE00CD5594 /* Assets.xcassets */,
-				D52B2682217375CE00CD5594 /* LaunchScreen.storyboard */,
 				D52B2685217375CE00CD5594 /* Info.plist */,
 			);
 			path = FoodApp;
@@ -177,9 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52B2684217375CE00CD5594 /* LaunchScreen.storyboard in Resources */,
 				D52B2681217375CE00CD5594 /* Assets.xcassets in Resources */,
-				D52B267F217375CD00CD5594 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52B267C217375CD00CD5594 /* ViewController.swift in Sources */,
+				D52B267C217375CD00CD5594 /* MealViewController.swift in Sources */,
 				D52B267A217375CD00CD5594 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,25 +211,6 @@
 			targetProxy = D52B268B217375CE00CD5594 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D52B267D217375CD00CD5594 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D52B267E217375CD00CD5594 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D52B2682217375CE00CD5594 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D52B2683217375CE00CD5594 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D52B2691217375CE00CD5594 /* Debug */ = {
