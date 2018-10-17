@@ -11,6 +11,14 @@ import Foundation
 class MealTablePresenterImpl: MealTablePresenter {
     var view: TableViewControllerDelegate
     
+    func removeMeal(index: Int) {
+        repository.data.remove(at: index)
+    }
+    
+    func getDataFromRepository(index: Int) -> Meal? {
+        return getDataFromRepository()?[index]
+    }
+    
     init(view: TableViewController) {
         self.view = view as TableViewControllerDelegate
     }

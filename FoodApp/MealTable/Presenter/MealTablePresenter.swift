@@ -10,4 +10,6 @@ import Foundation
 
 protocol MealTablePresenter{
     func getDataFromRepository() -> [Meal]?
+    func getDataFromRepository(index: Int) -> Meal?
+    func removeMeal(index: Int)
 }

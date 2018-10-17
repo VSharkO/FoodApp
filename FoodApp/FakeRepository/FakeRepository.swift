@@ -11,5 +11,5 @@ import Foundation
 public struct repository{
     static let sharedInstance = repository()
     private init(){}
-    static var data = [Meal(name: "Prvo jelo", photo: #imageLiteral(resourceName: "defaultImage"), rating: 3),Meal(name: "Drugo jelo", photo: #imageLiteral(resourceName: "defaultImage"), rating: 5)]
+    static var data = [Meal(name: "Prvo jelo", photo: #imageLiteral(resourceName: "defaultImage"), rating: 0),Meal(name: "Drugo jelo", photo: #imageLiteral(resourceName: "defaultImage"), rating: 1)]
 }

@@ -95,13 +95,13 @@
 		D52B2678217375CD00CD5594 /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
-				D581C3532176201D004C1E8D /* FakeRepository */,
 				D581C3442175BF9C004C1E8D /* MealTable */,
-				D581C3402175BC47004C1E8D /* Model */,
-				D581C33D2175BBBB004C1E8D /* CustomeViews */,
 				D581C33C2175BB54004C1E8D /* Meal */,
-				D52B2679217375CD00CD5594 /* AppDelegate.swift */,
+				D581C3402175BC47004C1E8D /* Model */,
+				D581C3532176201D004C1E8D /* FakeRepository */,
+				D581C33D2175BBBB004C1E8D /* CustomeViews */,
 				D52B2680217375CE00CD5594 /* Assets.xcassets */,
+				D52B2679217375CD00CD5594 /* AppDelegate.swift */,
 				D52B2685217375CE00CD5594 /* Info.plist */,
 			);
 			path = FoodApp;
@@ -114,6 +114,14 @@
 				D52B2690217375CE00CD5594 /* Info.plist */,
 			);
 			path = FoodAppTests;
+			sourceTree = "<group>";
+		};
+		D53F08FA2177308F00163E14 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D581C3492175C85A004C1E8D /* CustomCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		D581C33C2175BB54004C1E8D /* Meal */ = {
@@ -162,29 +170,29 @@
 		D581C3442175BF9C004C1E8D /* MealTable */ = {
 			isa = PBXGroup;
 			children = (
-				D581C34C21761D8F004C1E8D /* presenter */,
-				D581C34B21761D84004C1E8D /* view */,
-				D581C3492175C85A004C1E8D /* CustomCell.swift */,
+				D53F08FA2177308F00163E14 /* Cells */,
+				D581C34C21761D8F004C1E8D /* Presenter */,
+				D581C34B21761D84004C1E8D /* View */,
 			);
 			path = MealTable;
 			sourceTree = "<group>";
 		};
-		D581C34B21761D84004C1E8D /* view */ = {
+		D581C34B21761D84004C1E8D /* View */ = {
 			isa = PBXGroup;
 			children = (
 				D581C3472175C65F004C1E8D /* TableViewController.swift */,
 				D581C35121761EDE004C1E8D /* TableViewControllerDelegate.swift */,
 			);
-			path = view;
+			path = View;
 			sourceTree = "<group>";
 		};
-		D581C34C21761D8F004C1E8D /* presenter */ = {
+		D581C34C21761D8F004C1E8D /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
 				D581C34D21761DB3004C1E8D /* MealTablePresenterImpl.swift */,
 				D581C34F21761DD6004C1E8D /* MealTablePresenter.swift */,
 			);
-			path = presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		D581C3532176201D004C1E8D /* FakeRepository */ = {

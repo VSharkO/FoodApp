@@ -6,8 +6,10 @@
 //  Copyright © 2018 Valentin Šarić. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol MealPresenter {
-    func addMeal(meal: Meal)
+    func addMeal(name: String, photo: UIImage, rating: Int)
+    func getMeal(index: Int) -> Meal?
+    func updateMeal(name: String, photo: UIImage, rating: Int, index: Int)
 }

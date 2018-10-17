@@ -9,22 +9,17 @@
 import UIKit
 
 class CustomCell: UITableViewCell{
-    var mealName: String? {
-        didSet{
-           setupSubviews()
-        }
-    }
-    var mealPhoto: UIImage?{
-        didSet{
-            setupSubviews()
-        }
-    }
-    var mealRating: Int?{
-        didSet{
-            setupSubviews()
-        }
-    }
     
+    //    EDIT: budući da ne dobivamo podatke za čelije prilikom inicijalizacije tableViewa, ovdije je potrebno handle-ati ubacivanje podataka u costum čeliju
+    //    ovo služi otprilike kao adapter u androidu i poziva se u controlleru
+    func setupSubviews(model: Meal){
+        mealNameView.text = model.name
+        if let photo = model.photo{
+            mealPhotoView.image = photo
+        }
+        mealRatingView.setupButton(rating: model.rating)
+    }
+
     var mealNameView : UILabel = {
         var textLabel = UILabel()
         textLabel.font = UIFont.systemFont(ofSize: 20)
@@ -55,20 +50,6 @@ class CustomCell: UITableViewCell{
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-    
-    //    EDIT: budući da ne dobivamo podatke za čelije prilikom inicijalizacije tableViewa, ovdije je potrebno handle-ati ubacivanje podataka u costum čeliju
-    //    ovo služi otprilike kao adapter u androidu i poziva se u didSet(kada su vrijednosti inicijalizirane)
-    func setupSubviews(){
-        if let name = mealName{
-            mealNameView.text = name
-        }
-        if let photo = mealPhoto{
-            mealPhotoView.image = photo
-        }
-        if let rating = mealRating{
-            mealRatingView.setupButton(rating: rating)
-        }
     }
     
     func setupConstraints(){

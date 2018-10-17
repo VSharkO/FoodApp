@@ -12,16 +12,25 @@ class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerCon
     
     var presenter: MealPresenter?
     var tapGestureRecognizer: UITapGestureRecognizer?
+    var indexOfClickedMeal : Int? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         presenter = MealPresenterImpl(view: self) as MealPresenter
         tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageOnClick))
-        setupNavigationBar()
         setup()
     }
-
+    
+    init(index: Int?) {
+        super.init(nibName: nil, bundle: nil)
+        indexOfClickedMeal = index
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     // MARK: Views
     
     let rootView: UIView = {
@@ -59,15 +68,13 @@ class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerCon
         return ratingControll
     }()
     
-    
+    //MARK: Setup
     private func setup(){
         setupViews()
+        setupMealInfo(index: indexOfClickedMeal)
         setupConstraints()
         setupObservers()
-    }
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
+        setupNavigationBar()
     }
     
     private func setupViews(){
@@ -122,7 +129,44 @@ class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerCon
             ])
     }
     
+    //MARK: UIImagePickerControllerDelegate
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        guard let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage else {
+            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
+    }
+        
+        mealPhoto.image = selectedImage
+        dismiss(animated: true, completion: nil)
+    }
+    
     //MARK: Functions
+    
+    func setupNavigationBar(){
+        navigationItem.title = "Add Meal"
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(moveToMealScreen))
+    }
+    
+    func setupMealInfo(index: Int?){
+//        if index != nil then setup fields with old values set right button which call addMeal method, else set right button which call updateMeal
+        if let indexOfMeal = index{
+            if let meal = presenter?.getMeal(index: indexOfMeal){
+                editText.text = meal.name
+                mealPhoto.image = meal.photo
+                ratingControll.rating = meal.rating
+                ratingControll.setupButton(rating: meal.rating)
+            }
+            navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(updateMeal))
+        }else{
+            navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(addMeal))
+        }
+    }
+    
+    //MARK: OnClick Functions
+    
     @objc func imageOnClick(){
         let imagePickerController = UIImagePickerController()
         imagePickerController.sourceType = .photoLibrary
@@ -130,40 +174,24 @@ class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerCon
         present(imagePickerController, animated: true, completion: nil)
     }
     
-    //MARK: UIImagePickerControllerDelegate
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        // The info dictionary may contain multiple representations of the image. You want to use the original.
-        guard let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage else {
-            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
-        }
-        
-        // Set photoImageView to display the selected image.
-        mealPhoto.image = selectedImage
-        // Dismiss the picker.
-        dismiss(animated: true, completion: nil)
-    }
-    
-    func setupNavigationBar(){
-        navigationItem.title = "Add Meal"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(moveToMealScreen))
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(addMeal))
-    }
-    
     @objc func moveToMealScreen(){
         navigationController?.popViewController(animated: true)
     }
     
     @objc func addMeal(){
-        if let mealRating = ratingControll.rating,let text = editText.text{
+        if let mealRating = ratingControll.rating,let text = editText.text,let image = mealPhoto.image{
             if text != ""{
-                if let newMeal = Meal(name: text, photo: mealPhoto.image, rating: mealRating){
-                    presenter?.addMeal(meal: newMeal)
+                    presenter?.addMeal(name: text, photo: image, rating: mealRating)
                     navigationController?.popViewController(animated: true)
-                }
+            }
+        }
+    }
+    
+    @objc func updateMeal(){
+        if let mealRating = ratingControll.rating,let text = editText.text, let image = mealPhoto.image,let indexOfMeal = indexOfClickedMeal{
+            if text != ""{
+                    presenter?.updateMeal(name: text, photo: image, rating: mealRating, index: indexOfMeal)
+                    navigationController?.popViewController(animated: true)
             }
         }
     }
