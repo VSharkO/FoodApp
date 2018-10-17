@@ -13,13 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        let mealViewController = MealViewController()
-        window!.rootViewController = mealViewController
-        window!.makeKeyAndVisible()
-        return true
+        let tableViewController = TableViewController()
+        let navigationController = UINavigationController(rootViewController: tableViewController)
+        if let rootWindow = window{
+            rootWindow.rootViewController = navigationController
+            rootWindow.makeKeyAndVisible()
+            return true
+        }else{
+            return false
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
