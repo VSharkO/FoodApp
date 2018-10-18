@@ -57,7 +57,7 @@ class CustomCell: UITableViewCell{
             mealPhotoView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 16),
             mealPhotoView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 8),
             mealPhotoView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor,constant: -8),
-            mealPhotoView.widthAnchor.constraint(lessThanOrEqualTo: contentView.widthAnchor, multiplier: 1/3),
+            mealPhotoView.widthAnchor.constraint(equalToConstant: 100),
             mealPhotoView.heightAnchor.constraint(equalTo: mealPhotoView.widthAnchor)])
         
         NSLayoutConstraint.activate([

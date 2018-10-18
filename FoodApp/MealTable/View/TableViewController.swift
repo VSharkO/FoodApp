@@ -19,7 +19,6 @@ class TableViewController: UITableViewController, TableViewControllerDelegate {
     
 
     override func viewWillAppear(_ animated: Bool) {
-        //        TODO: this will be called 2 times on app first lounch
         tableView.reloadData()
     }
 

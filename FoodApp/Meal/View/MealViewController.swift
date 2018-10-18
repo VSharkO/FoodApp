@@ -17,7 +17,7 @@ class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerCon
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
-        presenter = MealPresenterImpl(view: self) as MealPresenter
+        presenter = MealPresenterImpl(view: self)
         tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageOnClick))
         setup()
     }

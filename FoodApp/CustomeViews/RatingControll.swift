@@ -61,6 +61,7 @@ class RatingControll: UIView{
             stackView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             stackView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
             stackView.trailingAnchor.constraint(lessThanOrEqualTo: self.trailingAnchor)
+            
         ])
     }
     
