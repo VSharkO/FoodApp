@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MealViewControllerDelegate {
+class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MealViewControllerDelegate{
     
     var presenter: MealPresenter?
     var tapGestureRecognizer: UITapGestureRecognizer?

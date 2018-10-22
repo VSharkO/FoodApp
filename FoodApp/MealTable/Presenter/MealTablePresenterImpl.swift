@@ -9,7 +9,7 @@
 import Foundation
 import os.log
 class MealTablePresenterImpl: MealTablePresenter {
-    var view: TableViewControllerDelegate
+    weak var view: TableViewControllerDelegate?
     
     func removeMeal(index: Int) {
         repository.data.remove(at: index)

@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol MealPresenter {
+protocol MealPresenter{
     func addMeal(name: String, photo: UIImage, rating: Int)
     func getMeal(index: Int) -> Meal?
     func updateMeal(name: String, photo: UIImage, rating: Int, index: Int)

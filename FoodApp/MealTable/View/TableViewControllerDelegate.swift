@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol TableViewControllerDelegate {
+protocol TableViewControllerDelegate: class{
 
 }

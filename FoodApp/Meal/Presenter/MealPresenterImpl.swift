@@ -10,7 +10,7 @@ import UIKit
 import os.log
 class MealPresenterImpl: MealPresenter{
     
-    let view: MealViewControllerDelegate;
+    var view: MealViewControllerDelegate;
     
     func updateMeal(name: String, photo: UIImage, rating: Int, index: Int) {
         repository.data[index] = Meal(name: name, photo: photo, rating: rating)
