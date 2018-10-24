@@ -41,7 +41,7 @@ class CustomCell: UITableViewCell{
     }()
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-        super .init(style: style, reuseIdentifier: reuseIdentifier)
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
         contentView.addSubview(mealNameView)
         contentView.addSubview(mealPhotoView)
         contentView.addSubview(mealRatingView)
