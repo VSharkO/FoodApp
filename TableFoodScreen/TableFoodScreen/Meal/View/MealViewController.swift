@@ -8,13 +8,13 @@
 
 import UIKit
 
-class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MealViewControllerDelegate{
+public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MealViewControllerDelegate{
     
     var presenter: MealPresenter?
     var tapGestureRecognizer: UITapGestureRecognizer?
     var indexOfClickedMeal : Int? = nil
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         presenter = MealPresenterImpl(view: self)
@@ -22,12 +22,12 @@ class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerCon
         setup()
     }
     
-    init(index: Int?) {
+    public init(index: Int?) {
         super.init(nibName: nil, bundle: nil)
         indexOfClickedMeal = index
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -174,11 +174,11 @@ class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerCon
         present(imagePickerController, animated: true, completion: nil)
     }
     
-    @objc func moveToMealScreen(){
+    @objc public func moveToMealScreen(){
         navigationController?.popViewController(animated: true)
     }
     
-    @objc func addMeal(){
+    @objc public func addMeal(){
         if let mealRating = ratingControll.rating,let text = editText.text,let image = mealPhoto.image{
             if text != ""{
                     presenter?.addMeal(name: text, photo: image, rating: mealRating)
@@ -187,7 +187,7 @@ class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerCon
         }
     }
     
-    @objc func updateMeal(){
+    @objc public func updateMeal(){
         if let mealRating = ratingControll.rating,let text = editText.text, let image = mealPhoto.image,let indexOfMeal = indexOfClickedMeal{
             if text != ""{
                     presenter?.updateMeal(name: text, photo: image, rating: mealRating, index: indexOfMeal)

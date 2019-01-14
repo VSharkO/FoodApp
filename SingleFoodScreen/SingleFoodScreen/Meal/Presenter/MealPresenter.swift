@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Shared
 
 protocol MealPresenter{
     func addMeal(name: String, photo: UIImage, rating: Int)

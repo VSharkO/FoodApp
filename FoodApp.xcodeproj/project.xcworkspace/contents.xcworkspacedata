@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../FoodTable"
+      name = "FoodTable">
+      <Group
+         location = "group:FoodTable"
+         name = "FoodTable">
+         <Group
+            location = "group:Cells"
+            name = "Cells">
+            <FileRef
+               location = "group:CustomCell.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:FoodTable.h">
+         </FileRef>
+         <Group
+            location = "group:Presenter"
+            name = "Presenter">
+            <FileRef
+               location = "group:MealTablePresenterImpl.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MealTablePresenter.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:View"
+            name = "View">
+            <FileRef
+               location = "group:TableViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TableViewControllerDelegate.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:FoodTable.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:FoodTableTests"
+         name = "FoodTableTests">
+         <FileRef
+            location = "group:FoodTableTests.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
-      location = "self:FoodApp.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

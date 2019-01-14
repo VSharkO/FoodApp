@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88033507E99E73881FE6DE4A /* libPods-SingleFoodScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 287515D097B668453465307C /* libPods-SingleFoodScreen.a */; };
+		D551833A21ECF193004A64FF /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D551833921ECF193004A64FF /* Shared.framework */; };
+		D551833C21ECF198004A64FF /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D551833B21ECF198004A64FF /* Utils.framework */; };
+		D5B8496721ECE25B00312B6F /* SingleFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B8495D21ECE25A00312B6F /* SingleFoodScreen.framework */; };
+		D5B8496C21ECE25B00312B6F /* SingleFoodScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8496B21ECE25B00312B6F /* SingleFoodScreenTests.swift */; };
+		D5B8496E21ECE25B00312B6F /* SingleFoodScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B8496021ECE25A00312B6F /* SingleFoodScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B8497E21ECE27000312B6F /* MealPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8497921ECE27000312B6F /* MealPresenter.swift */; };
+		D5B8497F21ECE27000312B6F /* MealPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8497A21ECE27000312B6F /* MealPresenterImpl.swift */; };
+		D5B8498021ECE27000312B6F /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8497C21ECE27000312B6F /* MealViewController.swift */; };
+		D5B8498121ECE27000312B6F /* MealViewcontrollerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8497D21ECE27000312B6F /* MealViewcontrollerDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5B8496821ECE25B00312B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B8495421ECE25A00312B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B8495C21ECE25A00312B6F;
+			remoteInfo = SingleFoodScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		287515D097B668453465307C /* libPods-SingleFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SingleFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A63384769F9961B31AE03EC /* Pods-SingleFoodScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleFoodScreen.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SingleFoodScreen/Pods-SingleFoodScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		A82C3DE75C76BE081E0152ED /* Pods-SingleFoodScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleFoodScreen.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SingleFoodScreen/Pods-SingleFoodScreen.release.xcconfig"; sourceTree = "<group>"; };
+		D551833921ECF193004A64FF /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D551833B21ECF198004A64FF /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B8495D21ECE25A00312B6F /* SingleFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SingleFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B8496021ECE25A00312B6F /* SingleFoodScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleFoodScreen.h; sourceTree = "<group>"; };
+		D5B8496121ECE25A00312B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B8496621ECE25B00312B6F /* SingleFoodScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleFoodScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B8496B21ECE25B00312B6F /* SingleFoodScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFoodScreenTests.swift; sourceTree = "<group>"; };
+		D5B8496D21ECE25B00312B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B8497921ECE27000312B6F /* MealPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPresenter.swift; sourceTree = "<group>"; };
+		D5B8497A21ECE27000312B6F /* MealPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPresenterImpl.swift; sourceTree = "<group>"; };
+		D5B8497C21ECE27000312B6F /* MealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		D5B8497D21ECE27000312B6F /* MealViewcontrollerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealViewcontrollerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5B8495A21ECE25A00312B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D551833C21ECF198004A64FF /* Utils.framework in Frameworks */,
+				D551833A21ECF193004A64FF /* Shared.framework in Frameworks */,
+				88033507E99E73881FE6DE4A /* libPods-SingleFoodScreen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B8496321ECE25B00312B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B8496721ECE25B00312B6F /* SingleFoodScreen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9DB748D04372E6922611AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A63384769F9961B31AE03EC /* Pods-SingleFoodScreen.debug.xcconfig */,
+				A82C3DE75C76BE081E0152ED /* Pods-SingleFoodScreen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D551833821ECF193004A64FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D551833B21ECF198004A64FF /* Utils.framework */,
+				D551833921ECF193004A64FF /* Shared.framework */,
+				287515D097B668453465307C /* libPods-SingleFoodScreen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B8495321ECE25A00312B6F = {
+			isa = PBXGroup;
+			children = (
+				D5B8495F21ECE25A00312B6F /* SingleFoodScreen */,
+				D5B8496A21ECE25B00312B6F /* SingleFoodScreenTests */,
+				D5B8495E21ECE25A00312B6F /* Products */,
+				3F9DB748D04372E6922611AF /* Pods */,
+				D551833821ECF193004A64FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B8495E21ECE25A00312B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8495D21ECE25A00312B6F /* SingleFoodScreen.framework */,
+				D5B8496621ECE25B00312B6F /* SingleFoodScreenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5B8495F21ECE25A00312B6F /* SingleFoodScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8497721ECE27000312B6F /* Meal */,
+				D5B8496021ECE25A00312B6F /* SingleFoodScreen.h */,
+				D5B8496121ECE25A00312B6F /* Info.plist */,
+			);
+			path = SingleFoodScreen;
+			sourceTree = "<group>";
+		};
+		D5B8496A21ECE25B00312B6F /* SingleFoodScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8496B21ECE25B00312B6F /* SingleFoodScreenTests.swift */,
+				D5B8496D21ECE25B00312B6F /* Info.plist */,
+			);
+			path = SingleFoodScreenTests;
+			sourceTree = "<group>";
+		};
+		D5B8497721ECE27000312B6F /* Meal */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8497821ECE27000312B6F /* Presenter */,
+				D5B8497B21ECE27000312B6F /* View */,
+			);
+			path = Meal;
+			sourceTree = "<group>";
+		};
+		D5B8497821ECE27000312B6F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8497921ECE27000312B6F /* MealPresenter.swift */,
+				D5B8497A21ECE27000312B6F /* MealPresenterImpl.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D5B8497B21ECE27000312B6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8497C21ECE27000312B6F /* MealViewController.swift */,
+				D5B8497D21ECE27000312B6F /* MealViewcontrollerDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D5B8495821ECE25A00312B6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B8496E21ECE25B00312B6F /* SingleFoodScreen.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D5B8495C21ECE25A00312B6F /* SingleFoodScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B8497121ECE25B00312B6F /* Build configuration list for PBXNativeTarget "SingleFoodScreen" */;
+			buildPhases = (
+				61878DCC355E21B399892219 /* [CP] Check Pods Manifest.lock */,
+				D5B8495821ECE25A00312B6F /* Headers */,
+				D5B8495921ECE25A00312B6F /* Sources */,
+				D5B8495A21ECE25A00312B6F /* Frameworks */,
+				D5B8495B21ECE25A00312B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleFoodScreen;
+			productName = SingleFoodScreen;
+			productReference = D5B8495D21ECE25A00312B6F /* SingleFoodScreen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5B8496521ECE25B00312B6F /* SingleFoodScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B8497421ECE25B00312B6F /* Build configuration list for PBXNativeTarget "SingleFoodScreenTests" */;
+			buildPhases = (
+				D5B8496221ECE25B00312B6F /* Sources */,
+				D5B8496321ECE25B00312B6F /* Frameworks */,
+				D5B8496421ECE25B00312B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B8496921ECE25B00312B6F /* PBXTargetDependency */,
+			);
+			name = SingleFoodScreenTests;
+			productName = SingleFoodScreenTests;
+			productReference = D5B8496621ECE25B00312B6F /* SingleFoodScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5B8495421ECE25A00312B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Valentin Šarić";
+				TargetAttributes = {
+					D5B8495C21ECE25A00312B6F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D5B8496521ECE25B00312B6F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D5B8495721ECE25A00312B6F /* Build configuration list for PBXProject "SingleFoodScreen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5B8495321ECE25A00312B6F;
+			productRefGroup = D5B8495E21ECE25A00312B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5B8495C21ECE25A00312B6F /* SingleFoodScreen */,
+				D5B8496521ECE25B00312B6F /* SingleFoodScreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5B8495B21ECE25A00312B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B8496421ECE25B00312B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61878DCC355E21B399892219 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingleFoodScreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5B8495921ECE25A00312B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B8498121ECE27000312B6F /* MealViewcontrollerDelegate.swift in Sources */,
+				D5B8497E21ECE27000312B6F /* MealPresenter.swift in Sources */,
+				D5B8497F21ECE27000312B6F /* MealPresenterImpl.swift in Sources */,
+				D5B8498021ECE27000312B6F /* MealViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B8496221ECE25B00312B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B8496C21ECE25B00312B6F /* SingleFoodScreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5B8496921ECE25B00312B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B8495C21ECE25A00312B6F /* SingleFoodScreen */;
+			targetProxy = D5B8496821ECE25B00312B6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5B8496F21ECE25B00312B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5B8497021ECE25B00312B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5B8497221ECE25B00312B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A63384769F9961B31AE03EC /* Pods-SingleFoodScreen.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S7A874D3GJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SingleFoodScreen/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blue.factory.SingleFoodScreen;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B8497321ECE25B00312B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82C3DE75C76BE081E0152ED /* Pods-SingleFoodScreen.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S7A874D3GJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SingleFoodScreen/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blue.factory.SingleFoodScreen;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5B8497521ECE25B00312B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7A874D3GJ;
+				INFOPLIST_FILE = SingleFoodScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blue.factory.SingleFoodScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B8497621ECE25B00312B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7A874D3GJ;
+				INFOPLIST_FILE = SingleFoodScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blue.factory.SingleFoodScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5B8495721ECE25A00312B6F /* Build configuration list for PBXProject "SingleFoodScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B8496F21ECE25B00312B6F /* Debug */,
+				D5B8497021ECE25B00312B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B8497121ECE25B00312B6F /* Build configuration list for PBXNativeTarget "SingleFoodScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B8497221ECE25B00312B6F /* Debug */,
+				D5B8497321ECE25B00312B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B8497421ECE25B00312B6F /* Build configuration list for PBXNativeTarget "SingleFoodScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B8497521ECE25B00312B6F /* Debug */,
+				D5B8497621ECE25B00312B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5B8495421ECE25A00312B6F /* Project object */;
+}

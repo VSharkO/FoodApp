@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Shared
 import os.log
-class MealPresenterImpl: MealPresenter{
+public class MealPresenterImpl: MealPresenter{
     
     var view: MealViewControllerDelegate;
     

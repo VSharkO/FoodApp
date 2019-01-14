@@ -9,7 +9,7 @@
 import UIKit
 import os.log
 
-//MARK: Archiving Paths
+//MARK: Archiving Pathspublic
 
 struct PropertyKey{
     static let name = "name"
