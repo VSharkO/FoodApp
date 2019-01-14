@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A981CE1A8A0F83CBCC6B4669 /* libPods-Shared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 121E3CBC634572CD12BBBD25 /* libPods-Shared.a */; };
+		D52E144C21ED061200AD23CD /* FakeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E144A21ED061200AD23CD /* FakeRepository.swift */; };
+		D52E144E21ED061F00AD23CD /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E144D21ED061F00AD23CD /* Meal.swift */; };
 		D5B8499C21ECE37E00312B6F /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B8499221ECE37E00312B6F /* Shared.framework */; };
 		D5B849A121ECE37E00312B6F /* SharedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B849A021ECE37E00312B6F /* SharedTests.swift */; };
 		D5B849A321ECE37E00312B6F /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B8499521ECE37E00312B6F /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5B849B121ECE38E00312B6F /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B849AE21ECE38E00312B6F /* Meal.swift */; };
-		D5B849B221ECE38E00312B6F /* FakeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B849B021ECE38E00312B6F /* FakeRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +28,14 @@
 		121E3CBC634572CD12BBBD25 /* libPods-Shared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E3F40CF17D4C517C61D6F2 /* Pods-Shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Shared/Pods-Shared.debug.xcconfig"; sourceTree = "<group>"; };
 		CB28B9744F8CDE0C01435FA1 /* Pods-Shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shared.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Shared/Pods-Shared.release.xcconfig"; sourceTree = "<group>"; };
+		D52E144A21ED061200AD23CD /* FakeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeRepository.swift; sourceTree = "<group>"; };
+		D52E144D21ED061F00AD23CD /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D5B8499221ECE37E00312B6F /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B8499521ECE37E00312B6F /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
 		D5B8499621ECE37E00312B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5B8499B21ECE37E00312B6F /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B849A021ECE37E00312B6F /* SharedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTests.swift; sourceTree = "<group>"; };
 		D5B849A221ECE37E00312B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5B849AE21ECE38E00312B6F /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
-		D5B849B021ECE38E00312B6F /* FakeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A981CE1A8A0F83CBCC6B4669 /* libPods-Shared.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +74,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D52E144921ED061200AD23CD /* FakeRepository */ = {
+			isa = PBXGroup;
+			children = (
+				D52E144A21ED061200AD23CD /* FakeRepository.swift */,
+			);
+			path = FakeRepository;
+			sourceTree = "<group>";
+		};
+		D52E144B21ED061200AD23CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D52E144D21ED061F00AD23CD /* Meal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D5B8498821ECE37E00312B6F = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +113,8 @@
 		D5B8499421ECE37E00312B6F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D5B849AC21ECE38E00312B6F /* Shared */,
+				D52E144921ED061200AD23CD /* FakeRepository */,
+				D52E144B21ED061200AD23CD /* Model */,
 				D5B8499521ECE37E00312B6F /* Shared.h */,
 				D5B8499621ECE37E00312B6F /* Info.plist */,
 			);
@@ -113,32 +128,6 @@
 				D5B849A221ECE37E00312B6F /* Info.plist */,
 			);
 			path = SharedTests;
-			sourceTree = "<group>";
-		};
-		D5B849AC21ECE38E00312B6F /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				D5B849AD21ECE38E00312B6F /* Model */,
-				D5B849AF21ECE38E00312B6F /* FakeRepository */,
-			);
-			name = Shared;
-			path = ../../../new/FoodApp/FoodApp/Shared;
-			sourceTree = "<group>";
-		};
-		D5B849AD21ECE38E00312B6F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D5B849AE21ECE38E00312B6F /* Meal.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D5B849AF21ECE38E00312B6F /* FakeRepository */ = {
-			isa = PBXGroup;
-			children = (
-				D5B849B021ECE38E00312B6F /* FakeRepository.swift */,
-			);
-			path = FakeRepository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B849B221ECE38E00312B6F /* FakeRepository.swift in Sources */,
-				D5B849B121ECE38E00312B6F /* Meal.swift in Sources */,
+				D52E144E21ED061F00AD23CD /* Meal.swift in Sources */,
+				D52E144C21ED061200AD23CD /* FakeRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
