@@ -7,15 +7,14 @@
 //
 
 import UIKit
-import Utils.Swift
 
 public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MealViewControllerDelegate{
     
     var presenter: MealPresenter?
-    var tapGestureRecognizer: UITapGestureRecognizer?
-    var indexOfClickedMeal : Int? = nil
+    public var tapGestureRecognizer: UITapGestureRecognizer?
+    public var indexOfClickedMeal : Int? = nil
     
-    override public func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         presenter = MealPresenterImpl(view: self)
@@ -33,6 +32,11 @@ public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePi
     }
     
     // MARK: Views
+    
+//    let ratingControll: RatingControl = {
+//        let ratingControll = RatingControll()
+//        return ratingControll
+//    }()
     
     let rootView: UIView = {
         let view = UIView()
@@ -63,11 +67,7 @@ public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePi
         mealPhoto.isUserInteractionEnabled = true
         return mealPhoto
     }()
-    
-    var ratingControll: RatingControl = {
-        let ratingControll = RatingControll()
-        return ratingControll
-    }()
+   
     
     //MARK: Setup
     private func setup(){
@@ -83,7 +83,7 @@ public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePi
         self.view.addSubview(stackView)
         stackView.addArrangedSubview(editText)
         stackView.addArrangedSubview(mealPhoto)
-        stackView.addArrangedSubview(ratingControll)
+//        stackView.addArrangedSubview(ratingControll)
     }
     
     private func setupConstraints(){
@@ -136,11 +136,11 @@ public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePi
     }
     
     private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        guard let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage else {
-            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
-    }
+//        guard let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage else {
+//            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
+//    }
     
-        mealPhoto.image = selectedImage
+        mealPhoto.image = UIImage()
         dismiss(animated: true, completion: nil)
     }
     
@@ -157,8 +157,8 @@ public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePi
             if let meal = presenter?.getMeal(index: indexOfMeal){
                 editText.text = meal.name
                 mealPhoto.image = meal.photo
-                ratingControll.rating = meal.rating
-                ratingControll.setupButton(rating: meal.rating)
+//                ratingControll.rating = meal.rating
+//                ratingControll.setupButton(rating: meal.rating)
             }
             navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(updateMeal))
         }else{
@@ -180,18 +180,18 @@ public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePi
     }
     
     @objc func addMeal(){
-        if let mealRating = ratingControll.rating,let text = editText.text,let image = mealPhoto.image{
+        if let/* mealRating = ratingControll.rating,let */text = editText.text,let image = mealPhoto.image{
             if text != ""{
-                    presenter?.addMeal(name: text, photo: image, rating: mealRating)
+                    presenter?.addMeal(name: text, photo: image, rating: 2)
                     navigationController?.popViewController(animated: true)
             }
         }
     }
     
     @objc func updateMeal(){
-        if let mealRating = ratingControll.rating,let text = editText.text, let image = mealPhoto.image,let indexOfMeal = indexOfClickedMeal{
+        if let /* mealRating = ratingControll.rating,let */ text = editText.text, let image = mealPhoto.image,let indexOfMeal = indexOfClickedMeal{
             if text != ""{
-                    presenter?.updateMeal(name: text, photo: image, rating: mealRating, index: indexOfMeal)
+                    presenter?.updateMeal(name: text, photo: image, rating: 2, index: indexOfMeal)
                     navigationController?.popViewController(animated: true)
             }
         }

@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0EEBDD4217B7AA89127D45A /* libPods-FoodApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40C53DD7EBC5AF1F52CC1BF /* libPods-FoodApp.a */; };
+		D51DCEDB21ECFCBC00C72147 /* UtilsPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEDA21ECFCBC00C72147 /* UtilsPods.framework */; };
+		D51DCEDC21ECFCBC00C72147 /* UtilsPods.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEDA21ECFCBC00C72147 /* UtilsPods.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D51DCEDE21ECFCC100C72147 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEDD21ECFCC100C72147 /* Shared.framework */; };
+		D51DCEDF21ECFCC100C72147 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEDD21ECFCC100C72147 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D51DCEE121ECFCC500C72147 /* SingleFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEE021ECFCC500C72147 /* SingleFoodScreen.framework */; };
+		D51DCEE221ECFCC500C72147 /* SingleFoodScreen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEE021ECFCC500C72147 /* SingleFoodScreen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D51DCEE421ECFCC700C72147 /* TableFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEE321ECFCC700C72147 /* TableFoodScreen.framework */; };
+		D51DCEE521ECFCC700C72147 /* TableFoodScreen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEE321ECFCC700C72147 /* TableFoodScreen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D52B267A217375CD00CD5594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B2679217375CD00CD5594 /* AppDelegate.swift */; };
 		D52B2681217375CE00CD5594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52B2680217375CE00CD5594 /* Assets.xcassets */; };
 		D52B268F217375CE00CD5594 /* FoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B268E217375CE00CD5594 /* FoodAppTests.swift */; };
-		D551834021ECF365004A64FF /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D551833F21ECF365004A64FF /* Utils.framework */; };
-		D551834121ECF365004A64FF /* Utils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D551833F21ECF365004A64FF /* Utils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D5B849C621ECE7BC00312B6F /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B849C521ECE7BC00312B6F /* Shared.framework */; };
-		D5B849C721ECE7BC00312B6F /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5B849C521ECE7BC00312B6F /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D5B849C921ECE7C100312B6F /* SingleFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B849C821ECE7C100312B6F /* SingleFoodScreen.framework */; };
-		D5B849CA21ECE7C100312B6F /* SingleFoodScreen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5B849C821ECE7C100312B6F /* SingleFoodScreen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D5B849CC21ECE7C900312B6F /* TableFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B849CB21ECE7C900312B6F /* TableFoodScreen.framework */; };
-		D5B849CD21ECE7C900312B6F /* TableFoodScreen.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5B849CB21ECE7C900312B6F /* TableFoodScreen.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D5456A3C21ED0134002D8261 /* Pods_FoodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF39D17100A9E333D2C7B3 /* Pods_FoodApp.framework */; };
+		D5456A3D21ED0134002D8261 /* Pods_FoodApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92FF39D17100A9E333D2C7B3 /* Pods_FoodApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +39,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D551834121ECF365004A64FF /* Utils.framework in Embed Frameworks */,
-				D5B849CD21ECE7C900312B6F /* TableFoodScreen.framework in Embed Frameworks */,
-				D5B849CA21ECE7C100312B6F /* SingleFoodScreen.framework in Embed Frameworks */,
-				D5B849C721ECE7BC00312B6F /* Shared.framework in Embed Frameworks */,
+				D5456A3D21ED0134002D8261 /* Pods_FoodApp.framework in Embed Frameworks */,
+				D51DCEDC21ECFCBC00C72147 /* UtilsPods.framework in Embed Frameworks */,
+				D51DCEE521ECFCC700C72147 /* TableFoodScreen.framework in Embed Frameworks */,
+				D51DCEE221ECFCC500C72147 /* SingleFoodScreen.framework in Embed Frameworks */,
+				D51DCEDF21ECFCC100C72147 /* Shared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +62,15 @@
 
 /* Begin PBXFileReference section */
 		79B996F4141FEED70D420195 /* Pods-FoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodApp/Pods-FoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		92FF39D17100A9E333D2C7B3 /* Pods_FoodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCED221ECFC7B00C72147 /* UtilsPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UtilsPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCED421ECFC9100C72147 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCED621ECFC9900C72147 /* SingleFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SingleFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCED821ECFC9E00C72147 /* TableFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TableFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCEDA21ECFCBC00C72147 /* UtilsPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UtilsPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCEDD21ECFCC100C72147 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCEE021ECFCC500C72147 /* SingleFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SingleFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCEE321ECFCC700C72147 /* TableFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TableFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B2676217375CD00CD5594 /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B2679217375CD00CD5594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D52B2680217375CE00CD5594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,12 +78,6 @@
 		D52B268A217375CE00CD5594 /* FoodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52B268E217375CE00CD5594 /* FoodAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAppTests.swift; sourceTree = "<group>"; };
 		D52B2690217375CE00CD5594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D551833F21ECF365004A64FF /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B849C521ECE7BC00312B6F /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B849C821ECE7C100312B6F /* SingleFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SingleFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B849CB21ECE7C900312B6F /* TableFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TableFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B84A0A21ECECB100312B6F /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E40C53DD7EBC5AF1F52CC1BF /* libPods-FoodApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5294B5A4D3DA897FAB6871 /* Pods-FoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodApp/Pods-FoodApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,11 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B849CC21ECE7C900312B6F /* TableFoodScreen.framework in Frameworks */,
-				D551834021ECF365004A64FF /* Utils.framework in Frameworks */,
-				D5B849C921ECE7C100312B6F /* SingleFoodScreen.framework in Frameworks */,
-				D5B849C621ECE7BC00312B6F /* Shared.framework in Frameworks */,
-				C0EEBDD4217B7AA89127D45A /* libPods-FoodApp.a in Frameworks */,
+				D5456A3C21ED0134002D8261 /* Pods_FoodApp.framework in Frameworks */,
+				D51DCEDB21ECFCBC00C72147 /* UtilsPods.framework in Frameworks */,
+				D51DCEE421ECFCC700C72147 /* TableFoodScreen.framework in Frameworks */,
+				D51DCEE121ECFCC500C72147 /* SingleFoodScreen.framework in Frameworks */,
+				D51DCEDE21ECFCC100C72147 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,14 +104,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		89A8C98AF98D1451A8B25FB4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E40C53DD7EBC5AF1F52CC1BF /* libPods-FoodApp.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9939BFCECA746E6AB87D86DD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,16 +116,15 @@
 		D52B266D217375CD00CD5594 = {
 			isa = PBXGroup;
 			children = (
-				D551833F21ECF365004A64FF /* Utils.framework */,
-				D5B84A0A21ECECB100312B6F /* Utils.framework */,
-				D5B849CB21ECE7C900312B6F /* TableFoodScreen.framework */,
-				D5B849C821ECE7C100312B6F /* SingleFoodScreen.framework */,
-				D5B849C521ECE7BC00312B6F /* Shared.framework */,
+				D51DCEE321ECFCC700C72147 /* TableFoodScreen.framework */,
+				D51DCEE021ECFCC500C72147 /* SingleFoodScreen.framework */,
+				D51DCEDD21ECFCC100C72147 /* Shared.framework */,
+				D51DCEDA21ECFCBC00C72147 /* UtilsPods.framework */,
 				D52B2678217375CD00CD5594 /* FoodApp */,
 				D52B268D217375CE00CD5594 /* FoodAppTests */,
 				D52B2677217375CD00CD5594 /* Products */,
 				9939BFCECA746E6AB87D86DD /* Pods */,
-				89A8C98AF98D1451A8B25FB4 /* Frameworks */,
+				E02F80BC5423C02927424465 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +154,18 @@
 				D52B2690217375CE00CD5594 /* Info.plist */,
 			);
 			path = FoodAppTests;
+			sourceTree = "<group>";
+		};
+		E02F80BC5423C02927424465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FF39D17100A9E333D2C7B3 /* Pods_FoodApp.framework */,
+				D51DCED221ECFC7B00C72147 /* UtilsPods.framework */,
+				D51DCED421ECFC9100C72147 /* Shared.framework */,
+				D51DCED621ECFC9900C72147 /* SingleFoodScreen.framework */,
+				D51DCED821ECFC9E00C72147 /* TableFoodScreen.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -415,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -431,7 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FoodApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +458,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FoodApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

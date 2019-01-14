@@ -7,43 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DB9606DD4F90CEB5C612EC86D9B1404 /* Pods-FoodApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0239F17F8D4D6C8458F9958BFDA5A58 /* Pods-FoodApp-dummy.m */; };
-		6CCE7CD595C46555F1B86E766C383223 /* Pods-TableFoodScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E004740F00C9BC068F1DD96F3F9F4C /* Pods-TableFoodScreen-dummy.m */; };
-		E0425A38081FF38ED99874337FA3D65A /* Pods-SingleFoodScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2426EDAF1687C84D5C13A4B815C8FC /* Pods-SingleFoodScreen-dummy.m */; };
-		EE37DC7C78BDB0EEC7535F3A876750D1 /* Pods-Shared-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C4A2C0FBA5C71283BF493420860D4B /* Pods-Shared-dummy.m */; };
+		245F3162E718874BC25FB9D96EDBDE1C /* Pods-FoodApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 146F17434199BA34C20E22DBD4D4B507 /* Pods-FoodApp-dummy.m */; };
+		48DD61AAF16F410E8C42D55CE8F8230E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		6CCE7CD595C46555F1B86E766C383223 /* Pods-TableFoodScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA408F947A6830C5EEF1D6F8FD71E23 /* Pods-TableFoodScreen-dummy.m */; };
+		A5749C1453377F7F499D5257410273EA /* Pods-FoodApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E06AD391D25F9959AAE7649D59A0003C /* Pods-FoodApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0425A38081FF38ED99874337FA3D65A /* Pods-SingleFoodScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D64495BDC926A3C16B94F20C370BF2E2 /* Pods-SingleFoodScreen-dummy.m */; };
+		E070297F01FD219D819CBF7DF4174A1D /* Pods-UtilsPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C1D357847953E7FAAA64A274CD2BF /* Pods-UtilsPods-dummy.m */; };
+		EE37DC7C78BDB0EEC7535F3A876750D1 /* Pods-Shared-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5DFCA49D7FF9CDCF393C615382834 /* Pods-Shared-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		046BE08846E7FADB5E09C36E7B04063B /* Pods-FoodApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodApp-resources.sh"; sourceTree = "<group>"; };
-		06CFC9A985A58684AFBA3D953E794911 /* Pods-SingleFoodScreen-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SingleFoodScreen-resources.sh"; sourceTree = "<group>"; };
-		2F2AA00E442DE48406231803D68EADBE /* Pods-Shared-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shared-resources.sh"; sourceTree = "<group>"; };
-		36860E92D8576C470BE601964B3007D5 /* libPods-Shared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Shared.a"; path = "libPods-Shared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F2426EDAF1687C84D5C13A4B815C8FC /* Pods-SingleFoodScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SingleFoodScreen-dummy.m"; sourceTree = "<group>"; };
-		45E9B8F4B3338E25256C267F201A4898 /* Pods-FoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4682F28685371184D231FE1A4B9C688D /* Pods-Shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shared.release.xcconfig"; sourceTree = "<group>"; };
-		47526BF874B8C3C249B94654271FD13F /* Pods-TableFoodScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableFoodScreen.release.xcconfig"; sourceTree = "<group>"; };
-		507E857C65F81674111B664F73925E6B /* Pods-Shared-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shared-acknowledgements.plist"; sourceTree = "<group>"; };
-		5343C5A6AAD54808A42162449D92DD1C /* libPods-FoodApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FoodApp.a"; path = "libPods-FoodApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5605784E7BE4161391425765FA999F42 /* Pods-FoodApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		87C00835EE63E6C554CBFA96BDA1E73F /* Pods-FoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodApp.release.xcconfig"; sourceTree = "<group>"; };
-		87E77C09450F5062B8E9FEF702287095 /* Pods-FoodApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		884C1529901B746DE589A210BA6BD989 /* libPods-SingleFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SingleFoodScreen.a"; path = "libPods-SingleFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A5DFCA49D7FF9CDCF393C615382834 /* Pods-Shared-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shared-dummy.m"; sourceTree = "<group>"; };
+		06161D298FC73AFA156526B6072B359A /* Pods-FoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodApp.release.xcconfig"; sourceTree = "<group>"; };
+		0BA408F947A6830C5EEF1D6F8FD71E23 /* Pods-TableFoodScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableFoodScreen-dummy.m"; sourceTree = "<group>"; };
+		1145537666C0D6B2B5A08C12C34B6F26 /* Pods-FoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		11830EA3BFE1264A9F0F54C18DC58594 /* Pods-UtilsPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UtilsPods.debug.xcconfig"; sourceTree = "<group>"; };
+		146F17434199BA34C20E22DBD4D4B507 /* Pods-FoodApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodApp-dummy.m"; sourceTree = "<group>"; };
+		1571BEF848422506B20145ACBBB43AFE /* Pods-UtilsPods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UtilsPods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23B63E9689E46B0E47AFB6031D5AA9CB /* Pods-Shared-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shared-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D86BFB451E8E7FDB1ABF97D7F76CF19 /* Pods-TableFoodScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableFoodScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		3591864D63B05957812068A46841B4C1 /* Pods-FoodApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodApp-resources.sh"; sourceTree = "<group>"; };
+		375E23A765C0043EFCAC34EA1CC91461 /* Pods-UtilsPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UtilsPods.release.xcconfig"; sourceTree = "<group>"; };
+		3C43D93BF801727C26D58E64FE9E3025 /* Pods-TableFoodScreen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableFoodScreen-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DF0A2FF46C4C840B70BA212A29B3B53 /* Pods-SingleFoodScreen-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SingleFoodScreen-resources.sh"; sourceTree = "<group>"; };
+		45E887D308D2087F3B29C4B18A62CE90 /* Pods-SingleFoodScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingleFoodScreen.debug.xcconfig"; sourceTree = "<group>"; };
+		49DF3235E846A6558881E32327A67116 /* Pods-FoodApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		49E987B84870EA320E0CB92D8EC452B7 /* Pods-TableFoodScreen-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableFoodScreen-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B1759587709A570CE965626A0C324BD /* Pods-Shared-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shared-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50B1B303094A3907E4C2D7164C552BB1 /* Pods-Shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shared.release.xcconfig"; sourceTree = "<group>"; };
+		549C1D357847953E7FAAA64A274CD2BF /* Pods-UtilsPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UtilsPods-dummy.m"; sourceTree = "<group>"; };
+		5ECB4C873DBA57EE54CC40BB3B1D4021 /* Pods-Shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shared.debug.xcconfig"; sourceTree = "<group>"; };
+		5F988A51CCCFBC2A81357F24646530E2 /* Pods-SingleFoodScreen-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SingleFoodScreen-acknowledgements.markdown"; sourceTree = "<group>"; };
+		630E9A40C277892A139728B86C712343 /* Pods-TableFoodScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableFoodScreen.release.xcconfig"; sourceTree = "<group>"; };
+		6BB093697126CCFB9CDCB351B5AF479A /* libPods-SingleFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SingleFoodScreen.a"; path = "libPods-SingleFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9E2514FA9923C410C610E632113D3F /* Pods-FoodApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8614C74E00439AEB010744916B4CF5FB /* Pods-SingleFoodScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingleFoodScreen.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB9DB3EB89C42B20B49B1A553809A30E /* libPods-TableFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TableFoodScreen.a"; path = "libPods-TableFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6EF711813F0BABAE73C59E493BDB9F4 /* Pods-TableFoodScreen-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableFoodScreen-resources.sh"; sourceTree = "<group>"; };
-		B87DD4FAABC4B396C770A4BC4E3C0BAC /* Pods-TableFoodScreen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableFoodScreen-acknowledgements.plist"; sourceTree = "<group>"; };
-		B9C4A2C0FBA5C71283BF493420860D4B /* Pods-Shared-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shared-dummy.m"; sourceTree = "<group>"; };
-		BF09AAB26F0C9E03F2A672B81307AFA1 /* Pods-TableFoodScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableFoodScreen.debug.xcconfig"; sourceTree = "<group>"; };
-		D383230F408782B39623FCFF974FDE54 /* Pods-FoodApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodApp-frameworks.sh"; sourceTree = "<group>"; };
-		D4E004740F00C9BC068F1DD96F3F9F4C /* Pods-TableFoodScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableFoodScreen-dummy.m"; sourceTree = "<group>"; };
-		DCADE04655C8FF6F6E55E671582E58F7 /* Pods-SingleFoodScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingleFoodScreen.release.xcconfig"; sourceTree = "<group>"; };
-		E1D6C281A658DEAA40E815BF11E4DB29 /* Pods-SingleFoodScreen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingleFoodScreen-acknowledgements.plist"; sourceTree = "<group>"; };
-		E5B239A3D428F2FD0C76514109A2D58A /* Pods-TableFoodScreen-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableFoodScreen-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EDD8FCCF19CB93959434DFEFB41313CB /* Pods-Shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shared.debug.xcconfig"; sourceTree = "<group>"; };
-		F0239F17F8D4D6C8458F9958BFDA5A58 /* Pods-FoodApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodApp-dummy.m"; sourceTree = "<group>"; };
-		F132F14D7D15A9632365CAFE0C171697 /* Pods-SingleFoodScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingleFoodScreen.debug.xcconfig"; sourceTree = "<group>"; };
-		F18A5C6455797E03E2C35882A753DC6C /* Pods-Shared-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shared-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FCAE60B2DCC72CDF6417FB2FB51B6083 /* Pods-SingleFoodScreen-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SingleFoodScreen-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C61B755179957D9701BF16E811EBC92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35A188CDB6682D53393643DC43B14BD /* Pods-UtilsPods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UtilsPods-acknowledgements.plist"; sourceTree = "<group>"; };
+		B02DDB9B1B6C1950D0B9302738C6C84C /* libPods-TableFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TableFoodScreen.a"; path = "libPods-TableFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64495BDC926A3C16B94F20C370BF2E2 /* Pods-SingleFoodScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SingleFoodScreen-dummy.m"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D873D1D579D24FB181095B779DB1F66A /* Pods_FoodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodApp.framework; path = "Pods-FoodApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA44B1623C027F0F07CB38C18E5E5E0E /* libPods-Shared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Shared.a"; path = "libPods-Shared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC75A2B689E15B3B1A80604BC216239A /* Pods-FoodApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodApp-frameworks.sh"; sourceTree = "<group>"; };
+		E06AD391D25F9959AAE7649D59A0003C /* Pods-FoodApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodApp-umbrella.h"; sourceTree = "<group>"; };
+		E0C76EF625D5C17914E946271D08849B /* libPods-UtilsPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UtilsPods.a"; path = "libPods-UtilsPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05E2F7FE8D78EB6850E43C67536D750 /* Pods-TableFoodScreen-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TableFoodScreen-resources.sh"; sourceTree = "<group>"; };
+		F5D2BEB80744BA99E67E481A55958C8B /* Pods-Shared-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shared-resources.sh"; sourceTree = "<group>"; };
+		F6A19BD872676F796751CE0393717CC2 /* Pods-UtilsPods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UtilsPods-resources.sh"; sourceTree = "<group>"; };
+		F81A4D4228C3AA60FCFFC8EAF5F4DB87 /* Pods-SingleFoodScreen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingleFoodScreen-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFBDFDC9CC45169A7D50F4B75099BE18 /* Pods-FoodApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodApp.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,33 +82,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89F33BE7CA808EA35976F8886A473871 /* Frameworks */ = {
+		78983F558967171F0E49F9E7BC19E291 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EC97BE0C2E61EF739762179CAABBC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DD61AAF16F410E8C42D55CE8F8230E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		2B5C68ACC170762A9075607547C3BD2D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				7C06EFB40D534DF6D828A4F8EA996B49 /* Pods-FoodApp */,
+				FFB098D2C647947C8148FEA790E98EFD /* Pods-Shared */,
+				6E528F4C3678FE81FF30593B0A31AC18 /* Pods-SingleFoodScreen */,
+				B360FDAE60971F5E33BF1C1353A980ED /* Pods-TableFoodScreen */,
+				C0559BB662AC3515B285DCE18D752325 /* Pods-UtilsPods */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2BAA0F3DA056977888DD1B22E596EE6F /* Pods-FoodApp */ = {
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5605784E7BE4161391425765FA999F42 /* Pods-FoodApp-acknowledgements.markdown */,
-				87E77C09450F5062B8E9FEF702287095 /* Pods-FoodApp-acknowledgements.plist */,
-				F0239F17F8D4D6C8458F9958BFDA5A58 /* Pods-FoodApp-dummy.m */,
-				D383230F408782B39623FCFF974FDE54 /* Pods-FoodApp-frameworks.sh */,
-				046BE08846E7FADB5E09C36E7B04063B /* Pods-FoodApp-resources.sh */,
-				45E9B8F4B3338E25256C267F201A4898 /* Pods-FoodApp.debug.xcconfig */,
-				87C00835EE63E6C554CBFA96BDA1E73F /* Pods-FoodApp.release.xcconfig */,
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E528F4C3678FE81FF30593B0A31AC18 /* Pods-SingleFoodScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5F988A51CCCFBC2A81357F24646530E2 /* Pods-SingleFoodScreen-acknowledgements.markdown */,
+				F81A4D4228C3AA60FCFFC8EAF5F4DB87 /* Pods-SingleFoodScreen-acknowledgements.plist */,
+				D64495BDC926A3C16B94F20C370BF2E2 /* Pods-SingleFoodScreen-dummy.m */,
+				3DF0A2FF46C4C840B70BA212A29B3B53 /* Pods-SingleFoodScreen-resources.sh */,
+				45E887D308D2087F3B29C4B18A62CE90 /* Pods-SingleFoodScreen.debug.xcconfig */,
+				8614C74E00439AEB010744916B4CF5FB /* Pods-SingleFoodScreen.release.xcconfig */,
+			);
+			name = "Pods-SingleFoodScreen";
+			path = "Target Support Files/Pods-SingleFoodScreen";
+			sourceTree = "<group>";
+		};
+		7C06EFB40D534DF6D828A4F8EA996B49 /* Pods-FoodApp */ = {
+			isa = PBXGroup;
+			children = (
+				9C61B755179957D9701BF16E811EBC92 /* Info.plist */,
+				FFBDFDC9CC45169A7D50F4B75099BE18 /* Pods-FoodApp.modulemap */,
+				7F9E2514FA9923C410C610E632113D3F /* Pods-FoodApp-acknowledgements.markdown */,
+				49DF3235E846A6558881E32327A67116 /* Pods-FoodApp-acknowledgements.plist */,
+				146F17434199BA34C20E22DBD4D4B507 /* Pods-FoodApp-dummy.m */,
+				DC75A2B689E15B3B1A80604BC216239A /* Pods-FoodApp-frameworks.sh */,
+				3591864D63B05957812068A46841B4C1 /* Pods-FoodApp-resources.sh */,
+				E06AD391D25F9959AAE7649D59A0003C /* Pods-FoodApp-umbrella.h */,
+				1145537666C0D6B2B5A08C12C34B6F26 /* Pods-FoodApp.debug.xcconfig */,
+				06161D298FC73AFA156526B6072B359A /* Pods-FoodApp.release.xcconfig */,
 			);
 			name = "Pods-FoodApp";
 			path = "Target Support Files/Pods-FoodApp";
@@ -104,79 +156,84 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				953879617913FECE45D8F3ACE95C0F7B /* Products */,
-				A4AA1A4820C6D10BAEA0A04996126B4C /* Targets Support Files */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F4533134EB1429FC17D903ABC2016180 /* Products */,
+				2B5C68ACC170762A9075607547C3BD2D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		953879617913FECE45D8F3ACE95C0F7B /* Products */ = {
+		B360FDAE60971F5E33BF1C1353A980ED /* Pods-TableFoodScreen */ = {
 			isa = PBXGroup;
 			children = (
-				5343C5A6AAD54808A42162449D92DD1C /* libPods-FoodApp.a */,
-				36860E92D8576C470BE601964B3007D5 /* libPods-Shared.a */,
-				884C1529901B746DE589A210BA6BD989 /* libPods-SingleFoodScreen.a */,
-				AB9DB3EB89C42B20B49B1A553809A30E /* libPods-TableFoodScreen.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A4AA1A4820C6D10BAEA0A04996126B4C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2BAA0F3DA056977888DD1B22E596EE6F /* Pods-FoodApp */,
-				D8BD761E6F3EB345AD51EA89F243A0F7 /* Pods-Shared */,
-				CD0DF009930D01D8A1560A09513EF120 /* Pods-SingleFoodScreen */,
-				DFAF489E5FA093629F2A3DCD07AABC5E /* Pods-TableFoodScreen */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CD0DF009930D01D8A1560A09513EF120 /* Pods-SingleFoodScreen */ = {
-			isa = PBXGroup;
-			children = (
-				FCAE60B2DCC72CDF6417FB2FB51B6083 /* Pods-SingleFoodScreen-acknowledgements.markdown */,
-				E1D6C281A658DEAA40E815BF11E4DB29 /* Pods-SingleFoodScreen-acknowledgements.plist */,
-				3F2426EDAF1687C84D5C13A4B815C8FC /* Pods-SingleFoodScreen-dummy.m */,
-				06CFC9A985A58684AFBA3D953E794911 /* Pods-SingleFoodScreen-resources.sh */,
-				F132F14D7D15A9632365CAFE0C171697 /* Pods-SingleFoodScreen.debug.xcconfig */,
-				DCADE04655C8FF6F6E55E671582E58F7 /* Pods-SingleFoodScreen.release.xcconfig */,
-			);
-			name = "Pods-SingleFoodScreen";
-			path = "Target Support Files/Pods-SingleFoodScreen";
-			sourceTree = "<group>";
-		};
-		D8BD761E6F3EB345AD51EA89F243A0F7 /* Pods-Shared */ = {
-			isa = PBXGroup;
-			children = (
-				F18A5C6455797E03E2C35882A753DC6C /* Pods-Shared-acknowledgements.markdown */,
-				507E857C65F81674111B664F73925E6B /* Pods-Shared-acknowledgements.plist */,
-				B9C4A2C0FBA5C71283BF493420860D4B /* Pods-Shared-dummy.m */,
-				2F2AA00E442DE48406231803D68EADBE /* Pods-Shared-resources.sh */,
-				EDD8FCCF19CB93959434DFEFB41313CB /* Pods-Shared.debug.xcconfig */,
-				4682F28685371184D231FE1A4B9C688D /* Pods-Shared.release.xcconfig */,
-			);
-			name = "Pods-Shared";
-			path = "Target Support Files/Pods-Shared";
-			sourceTree = "<group>";
-		};
-		DFAF489E5FA093629F2A3DCD07AABC5E /* Pods-TableFoodScreen */ = {
-			isa = PBXGroup;
-			children = (
-				E5B239A3D428F2FD0C76514109A2D58A /* Pods-TableFoodScreen-acknowledgements.markdown */,
-				B87DD4FAABC4B396C770A4BC4E3C0BAC /* Pods-TableFoodScreen-acknowledgements.plist */,
-				D4E004740F00C9BC068F1DD96F3F9F4C /* Pods-TableFoodScreen-dummy.m */,
-				B6EF711813F0BABAE73C59E493BDB9F4 /* Pods-TableFoodScreen-resources.sh */,
-				BF09AAB26F0C9E03F2A672B81307AFA1 /* Pods-TableFoodScreen.debug.xcconfig */,
-				47526BF874B8C3C249B94654271FD13F /* Pods-TableFoodScreen.release.xcconfig */,
+				49E987B84870EA320E0CB92D8EC452B7 /* Pods-TableFoodScreen-acknowledgements.markdown */,
+				3C43D93BF801727C26D58E64FE9E3025 /* Pods-TableFoodScreen-acknowledgements.plist */,
+				0BA408F947A6830C5EEF1D6F8FD71E23 /* Pods-TableFoodScreen-dummy.m */,
+				F05E2F7FE8D78EB6850E43C67536D750 /* Pods-TableFoodScreen-resources.sh */,
+				2D86BFB451E8E7FDB1ABF97D7F76CF19 /* Pods-TableFoodScreen.debug.xcconfig */,
+				630E9A40C277892A139728B86C712343 /* Pods-TableFoodScreen.release.xcconfig */,
 			);
 			name = "Pods-TableFoodScreen";
 			path = "Target Support Files/Pods-TableFoodScreen";
 			sourceTree = "<group>";
 		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0559BB662AC3515B285DCE18D752325 /* Pods-UtilsPods */ = {
+			isa = PBXGroup;
+			children = (
+				1571BEF848422506B20145ACBBB43AFE /* Pods-UtilsPods-acknowledgements.markdown */,
+				A35A188CDB6682D53393643DC43B14BD /* Pods-UtilsPods-acknowledgements.plist */,
+				549C1D357847953E7FAAA64A274CD2BF /* Pods-UtilsPods-dummy.m */,
+				F6A19BD872676F796751CE0393717CC2 /* Pods-UtilsPods-resources.sh */,
+				11830EA3BFE1264A9F0F54C18DC58594 /* Pods-UtilsPods.debug.xcconfig */,
+				375E23A765C0043EFCAC34EA1CC91461 /* Pods-UtilsPods.release.xcconfig */,
+			);
+			name = "Pods-UtilsPods";
+			path = "Target Support Files/Pods-UtilsPods";
+			sourceTree = "<group>";
+		};
+		F4533134EB1429FC17D903ABC2016180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA44B1623C027F0F07CB38C18E5E5E0E /* libPods-Shared.a */,
+				6BB093697126CCFB9CDCB351B5AF479A /* libPods-SingleFoodScreen.a */,
+				B02DDB9B1B6C1950D0B9302738C6C84C /* libPods-TableFoodScreen.a */,
+				E0C76EF625D5C17914E946271D08849B /* libPods-UtilsPods.a */,
+				D873D1D579D24FB181095B779DB1F66A /* Pods_FoodApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB098D2C647947C8148FEA790E98EFD /* Pods-Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4B1759587709A570CE965626A0C324BD /* Pods-Shared-acknowledgements.markdown */,
+				23B63E9689E46B0E47AFB6031D5AA9CB /* Pods-Shared-acknowledgements.plist */,
+				04A5DFCA49D7FF9CDCF393C615382834 /* Pods-Shared-dummy.m */,
+				F5D2BEB80744BA99E67E481A55958C8B /* Pods-Shared-resources.sh */,
+				5ECB4C873DBA57EE54CC40BB3B1D4021 /* Pods-Shared.debug.xcconfig */,
+				50B1B303094A3907E4C2D7164C552BB1 /* Pods-Shared.release.xcconfig */,
+			);
+			name = "Pods-Shared";
+			path = "Target Support Files/Pods-Shared";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		19BFE13E929635C62E619447C103176F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AC8DD603C289034BA83813E7F59F11D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,10 +241,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB581A3EB9EEC9E1ECAA5E255875EEDF /* Headers */ = {
+		BF7E42E1C65AC502BAEB48FCC559F670 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5749C1453377F7F499D5257410273EA /* Pods-FoodApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +266,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1D7E739725B954EE84F93BB4B4934E8D /* Pods-FoodApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9417BC95A34D12F9DB84A7C2312AEFC /* Build configuration list for PBXNativeTarget "Pods-FoodApp" */;
+			buildPhases = (
+				BF7E42E1C65AC502BAEB48FCC559F670 /* Headers */,
+				432EEC12A2B1443A6F3A5B51C74E7A67 /* Sources */,
+				9EC97BE0C2E61EF739762179CAABBC6F /* Frameworks */,
+				0F764BD11F3BFFEE7D71E40E7AEDC907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FoodApp";
+			productName = "Pods-FoodApp";
+			productReference = D873D1D579D24FB181095B779DB1F66A /* Pods_FoodApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B15055A27DE29C003CEE954B22D8250 /* Pods-UtilsPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E833AB2E8BA9F1FFB3C338E61A90A71 /* Build configuration list for PBXNativeTarget "Pods-UtilsPods" */;
+			buildPhases = (
+				19BFE13E929635C62E619447C103176F /* Headers */,
+				DCD659A8C9A4E56820A348B1495E5E70 /* Sources */,
+				78983F558967171F0E49F9E7BC19E291 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UtilsPods";
+			productName = "Pods-UtilsPods";
+			productReference = E0C76EF625D5C17914E946271D08849B /* libPods-UtilsPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		81D38FC8B626207C148BEBDF228FCC55 /* Pods-Shared */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44D6D95741664CB08D86EB1EC332BA1C /* Build configuration list for PBXNativeTarget "Pods-Shared" */;
@@ -222,24 +315,7 @@
 			);
 			name = "Pods-Shared";
 			productName = "Pods-Shared";
-			productReference = 36860E92D8576C470BE601964B3007D5 /* libPods-Shared.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8239199B8733C89C6586F7E6F8FEC187 /* Pods-FoodApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D640DBFA2043931F9BA83FCBE6EA031 /* Build configuration list for PBXNativeTarget "Pods-FoodApp" */;
-			buildPhases = (
-				BB581A3EB9EEC9E1ECAA5E255875EEDF /* Headers */,
-				D7F563448C80BF7ED9B54F4CB7C98083 /* Sources */,
-				89F33BE7CA808EA35976F8886A473871 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-FoodApp";
-			productName = "Pods-FoodApp";
-			productReference = 5343C5A6AAD54808A42162449D92DD1C /* libPods-FoodApp.a */;
+			productReference = DA44B1623C027F0F07CB38C18E5E5E0E /* libPods-Shared.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8680F09CA41F7B66255815265C9F8646 /* Pods-SingleFoodScreen */ = {
@@ -256,7 +332,7 @@
 			);
 			name = "Pods-SingleFoodScreen";
 			productName = "Pods-SingleFoodScreen";
-			productReference = 884C1529901B746DE589A210BA6BD989 /* libPods-SingleFoodScreen.a */;
+			productReference = 6BB093697126CCFB9CDCB351B5AF479A /* libPods-SingleFoodScreen.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FF119B2821C58133FA53E6B04268AD2A /* Pods-TableFoodScreen */ = {
@@ -273,7 +349,7 @@
 			);
 			name = "Pods-TableFoodScreen";
 			productName = "Pods-TableFoodScreen";
-			productReference = AB9DB3EB89C42B20B49B1A553809A30E /* libPods-TableFoodScreen.a */;
+			productReference = B02DDB9B1B6C1950D0B9302738C6C84C /* libPods-TableFoodScreen.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -293,17 +369,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 953879617913FECE45D8F3ACE95C0F7B /* Products */;
+			productRefGroup = F4533134EB1429FC17D903ABC2016180 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8239199B8733C89C6586F7E6F8FEC187 /* Pods-FoodApp */,
+				1D7E739725B954EE84F93BB4B4934E8D /* Pods-FoodApp */,
 				81D38FC8B626207C148BEBDF228FCC55 /* Pods-Shared */,
 				8680F09CA41F7B66255815265C9F8646 /* Pods-SingleFoodScreen */,
 				FF119B2821C58133FA53E6B04268AD2A /* Pods-TableFoodScreen */,
+				7B15055A27DE29C003CEE954B22D8250 /* Pods-UtilsPods */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F764BD11F3BFFEE7D71E40E7AEDC907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2530115A1005503AE23CE4F8198356D9 /* Sources */ = {
@@ -311,6 +398,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE37DC7C78BDB0EEC7535F3A876750D1 /* Pods-Shared-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432EEC12A2B1443A6F3A5B51C74E7A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245F3162E718874BC25FB9D96EDBDE1C /* Pods-FoodApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,11 +417,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7F563448C80BF7ED9B54F4CB7C98083 /* Sources */ = {
+		DCD659A8C9A4E56820A348B1495E5E70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB9606DD4F90CEB5C612EC86D9B1404 /* Pods-FoodApp-dummy.m in Sources */,
+				E070297F01FD219D819CBF7DF4174A1D /* Pods-UtilsPods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +436,86 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		22C9D3961ABE3E8183B1E75CA16C5E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06161D298FC73AFA156526B6072B359A /* Pods-FoodApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodApp/Pods-FoodApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A33DC7645A7271CEF4B2C93D01E9782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1145537666C0D6B2B5A08C12C34B6F26 /* Pods-FoodApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodApp/Pods-FoodApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6AC221FEF00504D071E4B7EB95E5813B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDD8FCCF19CB93959434DFEFB41313CB /* Pods-Shared.debug.xcconfig */;
+			baseConfigurationReference = 5ECB4C873DBA57EE54CC40BB3B1D4021 /* Pods-Shared.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -365,7 +537,7 @@
 		};
 		6FBB1D1E83731B5273C492316BC179D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCADE04655C8FF6F6E55E671582E58F7 /* Pods-SingleFoodScreen.release.xcconfig */;
+			baseConfigurationReference = 8614C74E00439AEB010744916B4CF5FB /* Pods-SingleFoodScreen.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -386,31 +558,9 @@
 			};
 			name = Release;
 		};
-		72168EEC35B804CF6F6C557873204EA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E9B8F4B3338E25256C267F201A4898 /* Pods-FoodApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		8668FA9D2119D2EC45896CAE141E1643 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F132F14D7D15A9632365CAFE0C171697 /* Pods-SingleFoodScreen.debug.xcconfig */;
+			baseConfigurationReference = 45E887D308D2087F3B29C4B18A62CE90 /* Pods-SingleFoodScreen.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -492,32 +642,9 @@
 			};
 			name = Release;
 		};
-		95E48AFB43EAF7B3B6813ACF7D16443E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87C00835EE63E6C554CBFA96BDA1E73F /* Pods-FoodApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		9FE3258BFA875CF053267E621E340E6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF09AAB26F0C9E03F2A672B81307AFA1 /* Pods-TableFoodScreen.debug.xcconfig */;
+			baseConfigurationReference = 2D86BFB451E8E7FDB1ABF97D7F76CF19 /* Pods-TableFoodScreen.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -539,7 +666,7 @@
 		};
 		A686496BFE8BE2A93FA23D7B1051A217 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4682F28685371184D231FE1A4B9C688D /* Pods-Shared.release.xcconfig */;
+			baseConfigurationReference = 50B1B303094A3907E4C2D7164C552BB1 /* Pods-Shared.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -559,6 +686,51 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		B4B10C934DC0048B1B02E1B6824C2EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375E23A765C0043EFCAC34EA1CC91461 /* Pods-UtilsPods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B59F6C2371DAD3045DF654F84BEA0410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11830EA3BFE1264A9F0F54C18DC58594 /* Pods-UtilsPods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		E19471FE7E209D0818DAFB22D649A6E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -628,7 +800,7 @@
 		};
 		EF5DB1B56E5385B82A008F6794AEAC3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47526BF874B8C3C249B94654271FD13F /* Pods-TableFoodScreen.release.xcconfig */;
+			baseConfigurationReference = 630E9A40C277892A139728B86C712343 /* Pods-TableFoodScreen.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -679,11 +851,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D640DBFA2043931F9BA83FCBE6EA031 /* Build configuration list for PBXNativeTarget "Pods-FoodApp" */ = {
+		8E833AB2E8BA9F1FFB3C338E61A90A71 /* Build configuration list for PBXNativeTarget "Pods-UtilsPods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72168EEC35B804CF6F6C557873204EA0 /* Debug */,
-				95E48AFB43EAF7B3B6813ACF7D16443E /* Release */,
+				B59F6C2371DAD3045DF654F84BEA0410 /* Debug */,
+				B4B10C934DC0048B1B02E1B6824C2EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9417BC95A34D12F9DB84A7C2312AEFC /* Build configuration list for PBXNativeTarget "Pods-FoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A33DC7645A7271CEF4B2C93D01E9782 /* Debug */,
+				22C9D3961ABE3E8183B1E75CA16C5E08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

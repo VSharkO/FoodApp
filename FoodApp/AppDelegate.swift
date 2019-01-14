@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TableFoodScreen
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        let tableViewController = TableViewController()
+        let tableViewController = MealViewController(index: 0)
         let navigationController = UINavigationController(rootViewController: tableViewController)
         if let rootWindow = window{
             rootWindow.rootViewController = navigationController

@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import UtilsPods
 
 public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, MealViewControllerDelegate{
     
     var presenter: MealPresenter?
-    var tapGestureRecognizer: UITapGestureRecognizer?
-    var indexOfClickedMeal : Int? = nil
+    public var tapGestureRecognizer: UITapGestureRecognizer?
+    public var indexOfClickedMeal : Int? = nil
     
     override public func viewDidLoad() {
         super.viewDidLoad()
@@ -135,11 +136,11 @@ public class MealViewController: UIViewController,UITextFieldDelegate, UIImagePi
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
-        guard let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage else {
-            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
-    }
+//        guard let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage else {
+//            fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
+//    }
         
-        mealPhoto.image = selectedImage
+        mealPhoto.image = UIImage()
         dismiss(animated: true, completion: nil)
     }
     

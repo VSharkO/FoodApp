@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7282E5AD21C61C65DC25D7DC /* libPods-TableFoodScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CE13A9449D011B78DC1FB9 /* libPods-TableFoodScreen.a */; };
-		D551833321ECF181004A64FF /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D551833221ECF181004A64FF /* Shared.framework */; };
-		D551833521ECF185004A64FF /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D551833421ECF185004A64FF /* Utils.framework */; };
-		D551833721ECF189004A64FF /* SingleFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D551833621ECF189004A64FF /* SingleFoodScreen.framework */; };
+		505CEDF2FE5BCA9D69483AFF /* libPods-TableFoodScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2108D6AFB2C12A0BD97EFBB9 /* libPods-TableFoodScreen.a */; };
+		D51DCEE721ECFCE400C72147 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEE621ECFCE400C72147 /* Shared.framework */; };
+		D51DCEE921ECFCEE00C72147 /* UtilsPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEE821ECFCEE00C72147 /* UtilsPods.framework */; };
+		D51DCEED21ECFD0800C72147 /* SingleFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51DCEEC21ECFD0800C72147 /* SingleFoodScreen.framework */; };
 		D5B8493521ECE11900312B6F /* TableFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B8492B21ECE11800312B6F /* TableFoodScreen.framework */; };
 		D5B8493A21ECE11900312B6F /* TableFoodScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8493921ECE11900312B6F /* TableFoodScreenTests.swift */; };
 		D5B8493C21ECE11900312B6F /* TableFoodScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B8492E21ECE11800312B6F /* TableFoodScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,6 +21,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D5456A3521ECFF02002D8261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D51DCEEA21ECFD0200C72147 /* SingleFoodScreen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5B8495D21ECE25A00312B6F;
+			remoteInfo = SingleFoodScreen;
+		};
+		D5456A3721ECFF02002D8261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D51DCEEA21ECFD0200C72147 /* SingleFoodScreen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5B8496621ECE25B00312B6F;
+			remoteInfo = SingleFoodScreenTests;
+		};
 		D5B8493621ECE11900312B6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5B8492221ECE11800312B6F /* Project object */;
@@ -31,12 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2108D6AFB2C12A0BD97EFBB9 /* libPods-TableFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FCCF9FF2C8F103C6ED0939 /* Pods-TableFoodScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableFoodScreen.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TableFoodScreen/Pods-TableFoodScreen.release.xcconfig"; sourceTree = "<group>"; };
-		43CE13A9449D011B78DC1FB9 /* libPods-TableFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66278C60E8CEBAD815675982 /* Pods-TableFoodScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableFoodScreen.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TableFoodScreen/Pods-TableFoodScreen.debug.xcconfig"; sourceTree = "<group>"; };
-		D551833221ECF181004A64FF /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D551833421ECF185004A64FF /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D551833621ECF189004A64FF /* SingleFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SingleFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCEE621ECFCE400C72147 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCEE821ECFCEE00C72147 /* UtilsPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UtilsPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51DCEEA21ECFD0200C72147 /* SingleFoodScreen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SingleFoodScreen.xcodeproj; path = ../SingleFoodScreen/SingleFoodScreen.xcodeproj; sourceTree = "<group>"; };
+		D51DCEEC21ECFD0800C72147 /* SingleFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SingleFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B8492B21ECE11800312B6F /* TableFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B8492E21ECE11800312B6F /* TableFoodScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableFoodScreen.h; sourceTree = "<group>"; };
 		D5B8492F21ECE11800312B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,10 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D551833721ECF189004A64FF /* SingleFoodScreen.framework in Frameworks */,
-				D551833521ECF185004A64FF /* Utils.framework in Frameworks */,
-				D551833321ECF181004A64FF /* Shared.framework in Frameworks */,
-				7282E5AD21C61C65DC25D7DC /* libPods-TableFoodScreen.a in Frameworks */,
+				D51DCEED21ECFD0800C72147 /* SingleFoodScreen.framework in Frameworks */,
+				505CEDF2FE5BCA9D69483AFF /* libPods-TableFoodScreen.a in Frameworks */,
+				D51DCEE921ECFCEE00C72147 /* UtilsPods.framework in Frameworks */,
+				D51DCEE721ECFCE400C72147 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,15 +96,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D551833121ECF181004A64FF /* Frameworks */ = {
+		BC4191BCF3AA62BB12FD3E8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D551833621ECF189004A64FF /* SingleFoodScreen.framework */,
-				D551833421ECF185004A64FF /* Utils.framework */,
-				D551833221ECF181004A64FF /* Shared.framework */,
-				43CE13A9449D011B78DC1FB9 /* libPods-TableFoodScreen.a */,
+				2108D6AFB2C12A0BD97EFBB9 /* libPods-TableFoodScreen.a */,
+				D51DCEEC21ECFD0800C72147 /* SingleFoodScreen.framework */,
+				D51DCEE621ECFCE400C72147 /* Shared.framework */,
+				D51DCEE821ECFCEE00C72147 /* UtilsPods.framework */,
+				D51DCEEA21ECFD0200C72147 /* SingleFoodScreen.xcodeproj */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5456A3121ECFF02002D8261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5456A3621ECFF02002D8261 /* SingleFoodScreen.framework */,
+				D5456A3821ECFF02002D8261 /* SingleFoodScreenTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D5B8492121ECE11800312B6F = {
@@ -99,7 +124,7 @@
 				D5B8493821ECE11900312B6F /* TableFoodScreenTests */,
 				D5B8492C21ECE11800312B6F /* Products */,
 				9A8201C2AD318F8F0F09A378 /* Pods */,
-				D551833121ECF181004A64FF /* Frameworks */,
+				BC4191BCF3AA62BB12FD3E8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -237,6 +262,12 @@
 			mainGroup = D5B8492121ECE11800312B6F;
 			productRefGroup = D5B8492C21ECE11800312B6F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D5456A3121ECFF02002D8261 /* Products */;
+					ProjectRef = D51DCEEA21ECFD0200C72147 /* SingleFoodScreen.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D5B8492A21ECE11800312B6F /* TableFoodScreen */,
@@ -244,6 +275,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D5456A3621ECFF02002D8261 /* SingleFoodScreen.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SingleFoodScreen.framework;
+			remoteRef = D5456A3521ECFF02002D8261 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5456A3821ECFF02002D8261 /* SingleFoodScreenTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SingleFoodScreenTests.xctest;
+			remoteRef = D5456A3721ECFF02002D8261 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D5B8492921ECE11800312B6F /* Resources */ = {

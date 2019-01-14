@@ -5,7 +5,7 @@
       location = "group:FoodApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Utils/Utils.xcodeproj">
+      location = "group:UtilsPods/UtilsPods.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Shared/Shared.xcodeproj">

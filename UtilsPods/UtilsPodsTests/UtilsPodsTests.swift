@@ -1,15 +1,15 @@
 //
-//  UtilsTests.swift
-//  UtilsTests
+//  UtilsPodsTests.swift
+//  UtilsPodsTests
 //
 //  Created by Valentin Šarić on 14/01/2019.
 //  Copyright © 2019 Valentin Šarić. All rights reserved.
 //
 
 import XCTest
-@testable import Utils
+@testable import UtilsPods
 
-class UtilsTests: XCTestCase {
+class UtilsPodsTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

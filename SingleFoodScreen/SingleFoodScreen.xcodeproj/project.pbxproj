@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88033507E99E73881FE6DE4A /* libPods-SingleFoodScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 287515D097B668453465307C /* libPods-SingleFoodScreen.a */; };
-		D551833A21ECF193004A64FF /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D551833921ECF193004A64FF /* Shared.framework */; };
-		D551833C21ECF198004A64FF /* Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D551833B21ECF198004A64FF /* Utils.framework */; };
+		094883B16EAB5AB8446C3605 /* libPods-SingleFoodScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B84127A6E9D0181B9EADE4 /* libPods-SingleFoodScreen.a */; };
+		D5456A3021ECFDC7002D8261 /* RatingControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5456A2F21ECFDC7002D8261 /* RatingControll.swift */; };
+		D5456A3B21ECFF1E002D8261 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5456A3A21ECFF1E002D8261 /* Shared.framework */; };
 		D5B8496721ECE25B00312B6F /* SingleFoodScreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B8495D21ECE25A00312B6F /* SingleFoodScreen.framework */; };
 		D5B8496C21ECE25B00312B6F /* SingleFoodScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B8496B21ECE25B00312B6F /* SingleFoodScreenTests.swift */; };
 		D5B8496E21ECE25B00312B6F /* SingleFoodScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B8496021ECE25A00312B6F /* SingleFoodScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,11 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		287515D097B668453465307C /* libPods-SingleFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SingleFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B84127A6E9D0181B9EADE4 /* libPods-SingleFoodScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SingleFoodScreen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A63384769F9961B31AE03EC /* Pods-SingleFoodScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleFoodScreen.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SingleFoodScreen/Pods-SingleFoodScreen.debug.xcconfig"; sourceTree = "<group>"; };
 		A82C3DE75C76BE081E0152ED /* Pods-SingleFoodScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleFoodScreen.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SingleFoodScreen/Pods-SingleFoodScreen.release.xcconfig"; sourceTree = "<group>"; };
-		D551833921ECF193004A64FF /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D551833B21ECF198004A64FF /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5456A2F21ECFDC7002D8261 /* RatingControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControll.swift; sourceTree = "<group>"; };
+		D5456A3A21ECFF1E002D8261 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B8495D21ECE25A00312B6F /* SingleFoodScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SingleFoodScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B8496021ECE25A00312B6F /* SingleFoodScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleFoodScreen.h; sourceTree = "<group>"; };
 		D5B8496121ECE25A00312B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,9 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D551833C21ECF198004A64FF /* Utils.framework in Frameworks */,
-				D551833A21ECF193004A64FF /* Shared.framework in Frameworks */,
-				88033507E99E73881FE6DE4A /* libPods-SingleFoodScreen.a in Frameworks */,
+				D5456A3B21ECFF1E002D8261 /* Shared.framework in Frameworks */,
+				094883B16EAB5AB8446C3605 /* libPods-SingleFoodScreen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +77,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D551833821ECF193004A64FF /* Frameworks */ = {
+		D5456A2E21ECFDC7002D8261 /* CustomeViews */ = {
 			isa = PBXGroup;
 			children = (
-				D551833B21ECF198004A64FF /* Utils.framework */,
-				D551833921ECF193004A64FF /* Shared.framework */,
-				287515D097B668453465307C /* libPods-SingleFoodScreen.a */,
+				D5456A2F21ECFDC7002D8261 /* RatingControll.swift */,
+			);
+			path = CustomeViews;
+			sourceTree = "<group>";
+		};
+		D5456A3921ECFF1E002D8261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5456A3A21ECFF1E002D8261 /* Shared.framework */,
+				85B84127A6E9D0181B9EADE4 /* libPods-SingleFoodScreen.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,7 +101,7 @@
 				D5B8496A21ECE25B00312B6F /* SingleFoodScreenTests */,
 				D5B8495E21ECE25A00312B6F /* Products */,
 				3F9DB748D04372E6922611AF /* Pods */,
-				D551833821ECF193004A64FF /* Frameworks */,
+				D5456A3921ECFF1E002D8261 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +117,7 @@
 		D5B8495F21ECE25A00312B6F /* SingleFoodScreen */ = {
 			isa = PBXGroup;
 			children = (
+				D5456A2E21ECFDC7002D8261 /* CustomeViews */,
 				D5B8497721ECE27000312B6F /* Meal */,
 				D5B8496021ECE25A00312B6F /* SingleFoodScreen.h */,
 				D5B8496121ECE25A00312B6F /* Info.plist */,
@@ -290,6 +297,7 @@
 			files = (
 				D5B8498121ECE27000312B6F /* MealViewcontrollerDelegate.swift in Sources */,
 				D5B8497E21ECE27000312B6F /* MealPresenter.swift in Sources */,
+				D5456A3021ECFDC7002D8261 /* RatingControll.swift in Sources */,
 				D5B8497F21ECE27000312B6F /* MealPresenterImpl.swift in Sources */,
 				D5B8498021ECE27000312B6F /* MealViewController.swift in Sources */,
 			);
